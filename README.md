@@ -30,7 +30,7 @@ AgriTech aims to bring accountability and data-driven decision-making into moder
 
 Explore the following sections:
 
-#User Guide
+### User Guide
 This section outlines how each of our users interacts with the AgriTech platform, from logging in.
 
 Farmers
@@ -94,7 +94,7 @@ Alerts for geofence violations are triggered automatically and shown to cooperat
 Mobile apps are optimized for offline mode (for fieldwork), with syncing once reconnected.
 Machine history and condition logs are accessible to both cooperatives and extension officers.
 
-###FAQ
+### FAQ
 
 - Below are some of the most commonly asked questions about using and managing the AgriTech system.
 
@@ -117,7 +117,7 @@ Q1: Can I update reports offline? A: Yes. The mobile app stores data locally and
 General
 Q: What if I forget my password? A: Use the “Forgot Password” option on the login screen to reset it via SMS. Q: Can I use this app on any phone? A: The farmer and extension officer apps are optimized for Android and can run on most smartphones. Q: Is AgriTech available in local languages? A: Not yet, but Kinyarwanda support is planned for a future release.
 
-###AI Component
+### AI Component
 
 Purpose of AI in AgriTech
 In AgriTech, Artificial Intelligence plays a key role in helping cooperatives make smarter, faster, and more informed decisions when sourcing machines from suppliers. Rather than relying on manual judgment or random choices, the AI system analyzes a range of data to recommend the best suppliers based on:
