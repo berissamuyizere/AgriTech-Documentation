@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgriTech Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav aria-label="Documentation Navigation">
+            <h2>AgriTech Docs</h2>
+            <ul>
+                <li><a href="#purpose">Purpose</a></li>
+                <li><a href="#supported-users">Supported Users</a></li>
+                <li><a href="#key-features">Key Features</a></li>
+                <li><a href="#user-guide">User Guide</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#ai-component">AI Component</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>AgriTech Documentation</h1>
+
+            <section id="purpose" tabindex="-1">
+                <h2>Purpose of AgriTech</h2>
+                <p>Many farmers struggle to access farming machines on time due to manual processes and poor tracking
+                    systems. <strong>AgriTech</strong> solves this by digitizing the entire process—from machine
+                    ordering to usage and monitoring—ensuring transparency, traceability, and efficiency for everyone
+                    involved.</p>
+                <!-- <div class="image-block">
+          <img src="images/agritech_purpose_placeholder.jpg" alt="Farmers using digital platform on mobile devices" />
+          <div class="image-caption">Digitizing agriculture to improve productivity</div>
+        </div> -->
+            </section>
+
+            <section id="supported-users" tabindex="-1">
+                <h2>Supported Users</h2>
+                <ul>
+                    <li><strong>Farmers:</strong> They can request machines from cooperatives and make payments.</li>
+                    <li><strong>Cooperatives:</strong> Manage machine orders, make payments to suppliers, track
+                        machines, and lend machines to farmers.</li>
+                    <li><strong>Extension Officers:</strong> Conduct field visits and update machine conditions.</li>
+                    <li><strong>Machine Suppliers:</strong> Receive machine requests from cooperatives and supply
+                        machines.</li>
+                </ul>
+
+            </section>
+
+            <section id="key-features" tabindex="-1">
+                <h2>Key Features Overview</h2>
+                <ul>
+                    <li>Digital ordering system between farmers, cooperatives, and machine suppliers</li>
+                    <li>IoT machine tracking using GPS and geofencing</li>
+                    <li>Integration with mobile payments</li>
+                    <li>Machinery lending record management</li>
+                    <li>Field reporting by extension officers</li>
+                </ul>
+                <p><em>AgriTech aims to bring accountability and data-driven decision-making into modern
+                        agriculture.</em></p>
+
+            </section>
+
+            <section id="user-guide" tabindex="-1">
+                <h2>User Guide</h2>
+
+                <article id="farmers">
+                    <h3>Farmers</h3>
+                    <div class="key-actions">Key actions: Place machinery orders to cooperatives, receive updates, make
+                        payments via mobile money</div>
+                    <h4>Step by step</h4>
+                    <ol class="steps">
+                        <li>Log in to the mobile app using your phone number.</li>
+                        <li>Navigate to <code>Request machine</code>.</li>
+                        <li>Fill out the request form with your preferred machine and duration.</li>
+                        <li>Wait for cooperative confirmation.</li>
+                        <li>Once notified, make payment.</li>
+                        <li>Receive the machine and begin use.</li>
+                    </ol>
+                    <div class="image-block">
+                        <div class="farmerImg">
+                            <img src="images/SIGN UP SCREEN.png" alt="Farmer sign up" />
+                            <img src="images/LOGIN SCREEN.png" alt="Farmer login"/>
+                        </div>
+                        <div class="image-caption">Cooperative management dashboard</div>
+                    </div>
+                </article>
+
+                <article id="cooperative-officers">
+                    <h3>Cooperative Officers</h3>
+                    <div class="key-actions">Key actions: Manage orders, supplier coordination, payments, machine
+                        tracking</div>
+                    <h4>Step-by-step</h4>
+                    <ol class="steps">
+                        <li>Log in to the web-based React dashboard.</li>
+                        <li>View incoming orders in the Orders Panel.</li>
+                        <li>Contact machine suppliers to source the requested machines.</li>
+                        <li>Notify the farmer once availability is confirmed.</li>
+                        <li>Receive payments from the farmer.</li>
+                        <li>Make payments to suppliers.</li>
+                        <li>Upon machine arrival, install IoT tracking devices.</li>
+                        <li>Record the machine in the system and assign it to the requesting farmer.</li>
+                        <li>Monitor machine location and condition reports in real-time.</li>
+                        <li>Receive alerts if a machine exits its geofenced area.</li>
+                    </ol>
+                    <div class="image-block">
+                        <img src="images/dashboard.png" alt="Cooperative officer dashboard web interface" />
+                        <div class="image-caption">Cooperative management dashboard</div>
+                    </div>
+                </article>
+
+                <article id="machine-suppliers">
+                    <h3>Machine Suppliers</h3>
+                    <div class="key-actions">Key actions: Confirm availability, deliver machines, receive payments</div>
+                    <h4>Step-by-Step</h4>
+                    <ol class="steps">
+                        <li>Log in to your supplier portal.</li>
+                        <li>View machine requests and confirm availability.</li>
+                        <li>Coordinate delivery with the cooperative.</li>
+                        <li>Deliver the machine and mark it as “delivered”.</li>
+                        <li>Receive payment from the cooperative.</li>
+                    </ol>
+
+                </article>
+
+
+                <article id="extension-officers">
+                    <h3>Extension Officers</h3>
+                    <div class="key-actions">Key actions: Field inspections, update machine status and reports</div>
+                    <h4>Step-by-Step</h4>
+                    <ol class="steps">
+                        <li>Open the Extension Officer mobile app.</li>
+                        <li>View your assigned machine list.</li>
+                        <li>Visit each farmer’s location during fieldwork.</li>
+                        <li>Check machine functionality and note any issues.</li>
+                        <li>Update machine status: Working, Needs Maintenance, Broken, etc.</li>
+                        <li>Submit field report.</li>
+                    </ol>
+                    <p>Reports are synced to the system and visible to cooperatives.</p>
+                    <div class="image-block">
+                        <div  class="extensionImg">
+                        <img src="images/extension-officer.png" alt="Extension officer using mobile app for field reporting" />
+                         <img src="images/extension2.png" alt="Extension officer using mobile app for field reporting" />
+                         </div>
+                        <div class="image-caption">Extension Officer mobile app</div>
+                    </div>
+                </article>
+
+                <section id="user-notes" tabindex="-1">
+                    <h3>Notes</h3>
+                    <ul>
+                        <li>All users have role-based logins and permissions.</li>
+                        <li>Alerts for geofence violations are triggered automatically and shown to cooperatives.</li>
+                        <li>Mobile apps are optimized for offline mode, with syncing once reconnected.</li>
+                        <li>Machine history and condition logs are accessible to both cooperatives and extension
+                            officers.</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section id="faq" tabindex="-1" class="faq">
+                <h2>FAQ</h2>
+
+                <h3>For Farmers</h3>
+                <dl>
+                    <dt>Q1: How do I know if my machine request has been approved?</dt>
+                    <dd>A: You will receive an in-app notification once the cooperative approves your request.</dd>
+
+                    <dt>Q2: What payment method is supported?</dt>
+                    <dd>A: We use M-Pesa integration through the Daraja API for all transactions. You’ll be prompted to
+                        complete payment from your phone.</dd>
+
+                    <dt>Q3: Can I track the machine’s location?</dt>
+                    <dd>A: No, but the cooperative can. They monitor usage through the tracking system.</dd>
+                </dl>
+
+                <h3>For Cooperatives</h3>
+                <dl>
+                    <dt>Q1: How are geofence alerts triggered?</dt>
+                    <dd>A: When a machine leaves its designated area, the IoT device sends a signal to the system, and
+                        an alert appears in the dashboard.</dd>
+
+                    <dt>Q2: Can I update the farmer’s details or reassign machines?</dt>
+                    <dd>A: Yes. From the admin dashboard, go to the “Machinery” section and reassign as needed.</dd>
+
+                    <dt>Q3: How do I record that a machine has returned?</dt>
+                    <dd>A: Go to the lending record tab and mark the machine as returned manually.</dd>
+                </dl>
+
+                <h3>For Machine Suppliers</h3>
+                <dl>
+                    <dt>Q1: How will I know when to supply a machine?</dt>
+                    <dd>A: You’ll get a notification or request through the system once a cooperative places an order.
+                    </dd>
+
+                    <dt>Q2: How do I confirm delivery?</dt>
+                    <dd>A: After delivery, log in and mark the request as “Delivered” in your supplier portal.</dd>
+                </dl>
+
+                <h3>For Extension Officers</h3>
+                <dl>
+                    <dt>Q1: Can I update reports offline?</dt>
+                    <dd>A: Yes. The mobile app stores data locally and syncs it once the internet is available.</dd>
+
+                    <dt>Q2: Can I attach images to my reports?</dt>
+                    <dd>A: Yes. During field reporting, you can upload photos, voice notes, or type notes.</dd>
+
+                    <dt>Q3: How are reports used?</dt>
+                    <dd>A: Reports are stored in the system and are visible to cooperatives for making decisions about
+                        maintenance or retrieval.</dd>
+                </dl>
+
+                <h3>General</h3>
+                <dl>
+                    <dt>Q: What if I forget my password?</dt>
+                    <dd>A: Use the “Forgot Password” option on the login screen to reset it via SMS.</dd>
+
+                    <dt>Q: Can I use this app on any phone?</dt>
+                    <dd>A: The farmer and extension officer apps are optimized for Android and can run on most
+                        smartphones.</dd>
+
+                    <dt>Q: Is AgriTech available in local languages?</dt>
+                    <dd>A: Not yet, but Kinyarwanda support is planned for a future release.</dd>
+                </dl>
+            </section>
+
+            <section id="ai-component" tabindex="-1">
+                <h2>AI Component</h2>
+                <h3>Purpose of AI in AgriTech</h3>
+                <p>Artificial Intelligence plays a key role in helping cooperatives make smarter, faster, and more
+                    informed decisions when sourcing machines from suppliers. Instead of relying on manual judgment, the
+                    AI system analyzes data to recommend the best suppliers based on:</p>
+                <ul>
+                    <li>Historical delivery performance</li>
+                    <li>Machine quality and condition reports</li>
+                    <li>Supplier reliability</li>
+                    <li>Timeliness of past deliveries</li>
+                    <li>Extension officer feedback from the field</li>
+                </ul>
+
+                <h3>How It Works</h3>
+                <h4>Data Collection</h4>
+                <p>The system gathers real-time and historical data from machine records, supplier logs, feedback
+                    reports, and IoT tracking history.</p>
+
+                <h4>Evaluation Model</h4>
+                <p>A lightweight AI model (Agentic AI) processes this data to rank suppliers based on machine quality,
+                    field performance, and overall reliability.</p>
+
+                <h4>Recommendation</h4>
+                <p>When a cooperative receives a farmer’s request, the AI suggests the top 1–3 suppliers most likely to
+                    meet quality, speed, and reliability needs.</p>
+
+                <h4>Learning Over Time</h4>
+                <p>The more data it gathers, the smarter the system gets. For example, if one supplier’s machines
+                    consistently break down or arrive late, their ranking is adjusted accordingly.</p>
+
+                <h3>Future Improvements</h3>
+                <ul>
+                    <li>Automated fraud detection in supplier entries</li>
+                    <li>Natural language query handling (e.g., “Find best supplier for dry season”)</li>
+                </ul>
+                <div class="image-block">
+                    <img src="images/ai_component_placeholder.png"
+                        alt="Diagram showing AI component and decision flow" />
+                    <div class="image-caption">AI-powered supplier recommendation system</div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
